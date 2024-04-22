@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#blockA{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("photos/ft6.jpg");
+    width: 100%;
+    height: 95%;
+    padding: 2%;
+}#blockA h1{
+    width: 70%;
+    font-size: 25px;
+    background: rgba(217, 66, 255, 0.559);
+    text-align: center;
+    margin: 2%;
+    color: white;
+    padding: 2%;
+}#blockA img{
+    width: 64%;
+    box-shadow: 0px 0px 20px  black;
+}
+
+#blockC{
+    width: 100%;
+    height: 95%;
+}#blockC h1{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 10px;
+    background: rgb(255, 136, 247);
+    color: white;
+}#blockC h2{
+    width: 80%;
+    text-wrap:nowrap;
+    overflow: auto;
+    border-bottom: 4px solid #909090;
+}#sublockC{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+}#blockC img{
+    width: 50%;
+}
+
+#blockB{
+    width: 100%;
+    height: 90%;
+    background-image: url("photos/ft5.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}#blockB h1{
+    color: white;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 4%;
+}#sublockB{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 4%;
+    backdrop-filter: blur(5px);
+}#blockB img{
+    width: 80%;
+    box-shadow: 0px 0px 20px  black;
+}
+
+#card{
+    width: 100%;
+    height: 99%;
+}#card img{
+    width: 100%;
+}
